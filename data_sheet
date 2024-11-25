@@ -1,1 +1,84 @@
+# Datasheet Template
 
+As far as you can, complete the model datasheet. If you have got the data from the internet, you may not have all the information you need, but make sure you include all the information you do have. 
+
+## Motivation
+
+- For what purpose was the dataset created? 
+This data set is ideal for anyone looking to practice their exploratory data analysis (EDA) or get started in building predictive models!
+
+- Who created the dataset (e.g., which team, research group) and on behalf of which entity (e.g., company, institution, organization)? Who funded the creation of the dataset?
+The data is originally from the article Hotel Booking Demand Datasets, written by Nuno Antonio, Ana Almeida, and Luis Nunes for Data in Brief, Volume 22, February 2019.
+
+The data was downloaded and cleaned by Thomas Mock and Antoine Bichat for #TidyTuesday during the week of February 11th, 2020.
+
+
+ 
+## Composition
+
+- What do the instances that comprise the dataset represent (e.g., documents, photos, people, countries)? 
+This data set contains a single file which compares various booking information between two hotels: a city hotel and a resort hotel.
+
+- How many instances of each type are there? - It's one csv file.
+
+- Is there any missing data? - Yes
+
+- Does the dataset contain data that might be considered confidential (e.g., data that is protected by legal privilege or by    doctor–patient confidentiality, data that includes the content of individuals’ non-public communications)? 
+All personally identifying information has been removed from the data.
+
+
+## Collection process
+
+- How was the data acquired? 
+Sources
+Hotel Booking Demand Datasets: Nuno Antonio, Ana Almeida, Luis Nunes, Data in Brief, 2019
+
+Collection Methodology
+Data was downloaded from: https://www.sciencedirect.com/science/article/pii/S2352340918315191 and cleaned by Thomas Mock and Antoine Bichat as part of #TidyTuesday: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md
+
+- If the data is a sample of a larger subset, what was the sampling strategy? 
+ NA
+
+- Over what time frame was the data collected?
+Temporal Coverage Start/End Dates: 07/01/2015 - 08/31/2017
+
+## Preprocessing/cleaning/labelling
+
+- Was any preprocessing/cleaning/labeling of the data done (e.g., discretization or bucketing, tokenization, part-of-speech tagging, SIFT feature extraction, removal of instances, processing of missing values)? If so, please provide a description. If not, you may skip the remaining questions in this section. 
+
+No
+
+## Uses
+
+- What other tasks could the dataset be used for? 
+Have you ever wondered when the best time of year to book a hotel room is? Or the optimal length of stay in order to get the best daily rate? What if you wanted to predict whether or not a hotel was likely to receive a disproportionately high number of special requests?
+
+This hotel booking dataset can help you explore those questions!
+
+This data set is ideal for anyone looking to practice their exploratory data analysis (EDA) or get started in building predictive models!
+
+If you're looking for inspiration on data visualizations, check out the #TidyTuesday program, a free, weekly online event that encourages participants to create and share their code and visualizations for a given data set on Twitter.
+
+If you'd like to dive into predictive modeling, Julia Silge has an accessible and fantastic walk-through which highlights the tidymodels R package.
+
+- Is there anything about the composition of the dataset or the way it was collected and preprocessed/cleaned/labeled that might impact future uses? For example, is there anything that a dataset consumer might need to know to avoid uses that could result in unfair treatment of individuals or groups (e.g., stereotyping, quality of service issues) or other risks or harms (e.g., legal risks, financial harms)? If so, please provide a description. Is there anything a dataset consumer could do to mitigate these risks or harms? 
+
+This data set contains booking information for a city hotel and a resort hotel, and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things.
+
+All personally identifying information has been removed from the data.
+
+- Are there tasks for which the dataset should not be used? If so, please provide a description.
+
+NA
+
+## Distribution
+
+- How has the dataset already been distributed? 
+Data was downloaded from: https://www.sciencedirect.com/science/article/pii/S2352340918315191 and cleaned by Thomas Mock and Antoine Bichat as part of #TidyTuesday: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md
+Link to the dataset: https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data
+- Is it subject to any copyright or other intellectual property (IP) license, and/or under applicable terms of use (ToU)?  
+License Attribution 4.0 International (CC BY 4.0)
+
+## Maintenance
+
+Expected Update Frequency: Never (Updated 5 years ago)
